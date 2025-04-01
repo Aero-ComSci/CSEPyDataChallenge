@@ -3,13 +3,17 @@
 In this challenge you will be modifying the function in the given code file
 named challengeCode.py 
 
-Your task is to analyze the arguement and find out what data type the argument is.
+Your task is to analyze the argument and find out what data type the argument is.
 
 You would do this with the help of the type() built in function. Refer to 3.1.2, section about data type chart.
 
-Once you have found out what data type it is complete the challenge by doing something with the data type and return it to the user.
+```
+type("hello") #result is str
+```
 
-For example:
+Once you have found out what data type it is complete the challenge by doing something with the arg and return it to the user.
+
+*For example:*
 A string would be concatenated to another string
 A number can be added to another number
 True can be True or Negated to False
