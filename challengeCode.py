@@ -8,7 +8,7 @@ In this challenge you will be modifying the following function.
 
 def challenge(arg1):
     #Do something with arg1 here
-    
+    arg1 = str(arg1) + "!"  # Example modification for strings
     return (arg1)
 
 #checks
